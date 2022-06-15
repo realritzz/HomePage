@@ -1,0 +1,68 @@
+body {
+  background-image: url('background3.png');
+  background-repeat: none;
+  background-size: cover;
+}
+
+a:hover {
+  color: red;
+}
+
+* {
+  font-family: Ariel, sans-serif;
+}
+
+.bottom img {
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  top: 0;
+  text-align: center;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+.top {
+  position: -webkit -sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+}
+
+#table1 {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.push td, h5, h6 {
+  padding-left: 10px;
+}
+
+.zebra {
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 100px;
+}
+
+.zebra tr:nth-child(even) {
+  background-color: grey;
+}
+
+.zebra tr:nth-child(odd) {
+  background-color: white;
+}
+
+.bottom {
+  background-color: yellow;
+  align: center;
+}
